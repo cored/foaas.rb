@@ -1,5 +1,5 @@
 When(/^I ask for the fuck off message with "(.*?)" and "(.*?)"$/) do |name, from|
-  @service_msg = FuckOffService.new(name, from).call
+  @service_msg = FuckOff.new(name, from).call
 end
 
 Then(/^I successfully see Fuck off "(.*?)" \- "(.*?)"$/) do |name, from|

@@ -1,4 +1,4 @@
-class FuckOffService < Struct.new(:name, :from)
+class FuckOff < Struct.new(:name, :from)
   MSG = "Fuck off"
 
   def call
