@@ -98,4 +98,12 @@ FOAAS will respond to the following 'Accept:' values with appropriate content
 
   Will return content of the form 'Fuck you very much. - :from".
 
+## ROADMAP
+
+* Add content negotiation for text messages
+* Add content negotiation for html messages using Foundation or Bootstrap
+* Add internationalization 
+* Add random fuck off message of the day
+* Add controller end points for all services
+
 All contributions are very welcome.
