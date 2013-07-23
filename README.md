@@ -55,12 +55,6 @@ FOAAS will respond to the following 'Accept:' values with appropriate content
   Will return content of the form ':name, Thou clay-brained guts, thou
   knotty-pated fool, thou whoreson obscene greasy tallow-catch! - :from'.
 
-## /linus/:name/:from
-
-  Will return content of the form ':name, there aren't enough swear-words in
-  the English language, so now I'll have to call you perkeleen vittupää just
-  to express my disgust and frustration with this crap. - :from'.
-
 ## /king/:name/:from
 
   Will return content of the form 'Oh fuck off, just really fuck off you
@@ -105,5 +99,7 @@ FOAAS will respond to the following 'Accept:' values with appropriate content
 * Add internationalization 
 * Add random fuck off message of the day
 * Add controller end points for all services
+* Add the following messages services - king, pink, life, chainsaw, outside,
+  thing, thanks
 
 All contributions are very welcome.
