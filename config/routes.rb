@@ -3,6 +3,7 @@ FoaasRb::Application.routes.draw do
   get 'you/:name/:from', to: 'fuckyou#show'
   get 'this/:from', to: 'fuckthis#show'
   get 'that/:from', to: 'fuckthat#show'
+  get 'everything/:from', to: 'fuckeverything#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
