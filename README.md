@@ -98,8 +98,5 @@ FOAAS will respond to the following 'Accept:' values with appropriate content
 * Add content negotiation for html messages using Foundation or Bootstrap
 * Add internationalization 
 * Add random fuck off message of the day
-* Add controller end points for all services
-* Add the following messages services - king, pink, life, chainsaw, outside,
-  thing, thanks
 
 All contributions are very welcome.
