@@ -13,4 +13,5 @@ FoaasRb::Application.routes.draw do
   get 'chainsaw/:name/:from', to: 'chainsaw#show'
   get 'outside/:name/:from', to: 'outside#show'
   get '/:thing/:from', to: 'thing#show'
+  get 'thanks/:from', to: 'thanks#show'
 end
