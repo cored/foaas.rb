@@ -7,4 +7,5 @@ FoaasRb::Application.routes.draw do
   get 'everyone/:from', to: 'fuckeveryone#show'
   get 'donut/:name/:from', to: 'donut#show'
   get 'shakespeare/:name/:from', to: 'shakespeare#show'
+  get 'king/:name/:from', to: 'king#show'
 end
