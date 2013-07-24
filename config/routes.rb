@@ -10,4 +10,5 @@ FoaasRb::Application.routes.draw do
   get 'king/:name/:from', to: 'king#show'
   get 'pink/:from', to: 'pink#show'
   get 'life/:from', to: 'life#show'
+  get 'chainsaw/:name/:from', to: 'chainsaw#show'
 end
