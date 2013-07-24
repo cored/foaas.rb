@@ -1,5 +1,6 @@
 FoaasRb::Application.routes.draw do
   get 'off/:name/:from', to: 'fuckoff#show'
+  get 'you/:name/:from', to: 'fuckyou#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
