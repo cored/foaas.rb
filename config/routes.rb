@@ -14,4 +14,6 @@ FoaasRb::Application.routes.draw do
   get 'outside/:name/:from', to: 'outside#show'
   get '/:thing/:from', to: 'thing#show'
   get 'thanks/:from', to: 'thanks#show'
+
+  root to: 'fuckoff#index'
 end

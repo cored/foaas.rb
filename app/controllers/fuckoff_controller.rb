@@ -1,4 +1,8 @@
 class FuckoffController < ApplicationController
+  def index
+
+  end
+
   def show
     name = params[:name]
     from = params[:from]
