@@ -4,27 +4,63 @@
 <!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
-  <head>
-  	<meta charset="utf-8" />
+<head>
+<meta charset="utf-8" />
 
-  	<!-- Uncomment to make IE8 render like IE7 -->
-  	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+<!-- Uncomment to make IE8 render like IE7 -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
 
-  	<!-- Set the viewport width to device width for mobile -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+<title><%= content_for?(:title) ? yield(:title) : "FOAAS.RB" %></title>
 
-  	<%= stylesheet_link_tag    "application" %>
-  	<%= javascript_include_tag "vendor/custom.modernizr" %>
-    <%= csrf_meta_tags %>
-  </head>
+<%= stylesheet_link_tag    "application" %>
+<%= javascript_include_tag "vendor/custom.modernizr" %>
+<%= csrf_meta_tags %>
+</head>
 
-  <body>
+<body>
 
-    <%= yield %>
 
+<!-- Header and Nav -->
+
+<div class="row">
+  <div class="large-3 columns">
+    <h1>FOAAS.RB</h1>
     
-    <%= javascript_include_tag "application" %>
-  </body>
+  </div>
+</div>
+
+<!-- End Header and Nav -->
+
+<div class="row">    
+
+  <!-- Main Content Section -->
+  <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+  <div class="large-9 columns">
+
+    <h3>Fuck off as a service <small>v0.0.1</small></h3>
+    <%= yield %>
+  </div>
+
+</div>
+
+
+<!-- Footer -->
+
+<footer class="row">
+  <div class="large-12 columns">
+    <hr />
+    <div class="row">
+      <div class="large-6 columns">
+        <p>&copy; Copyright no one at all. Go to town.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<%= javascript_include_tag "application" %>
+</body>
 </html>

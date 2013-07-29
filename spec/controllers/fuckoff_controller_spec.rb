@@ -5,7 +5,7 @@ describe FuckoffController do
   let(:from) { "Michael" }
 
   it "returns fuck off message" do 
-    get :show, :name => name, :from => from
+    get :show, :name => name, :from => from, :format => 'json'
     response.body.should == {message:"Fuck off #{name} - #{from}"}.to_json
   end
 end

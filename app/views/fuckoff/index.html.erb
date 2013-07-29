@@ -1,1 +1,23 @@
-<h1>Hello</h1>
+<h4>Introduction</h4>
+<p>FOAAS (Fuck Off As A Service) provides a modern, RESTful, scalable solution to
+the common problem of telling people to fuck off.</p>
+<p>Same thing as this <a href="https://github.com/xenph/foaas">FOAAS</a> but in Ruby.</p>
+
+<h4>Content Negotiation</h4>
+<p>FOAAS will respond to the following 'Accept:' values with appropriate content</p>
+
+<ul>
+  <li>
+  application/json - Content will be returned as a JSON object { message: 'message', subtitle: 'subtitle' }
+  </li>
+  <li>
+  application/html - Content will return an HTML page with the message asked
+  </li>
+ </ul>
+
+<h4>API</h4>
+
+<h5>/off/:name/:from</h5>
+
+<p>Will return content of the form 'Fuck off, :name. - :from', e.g.</p>
+<p>/off/Tom/Chris will return 'Fuck off, Tom - Chris'</p>
